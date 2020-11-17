@@ -1,0 +1,118 @@
+/* Definindo variavies no css */
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* define um limite de borda para os elementos internos respeitarem */
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+header .logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--vermelho);
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+header nav{
+    margin-right: 10px;
+}
+
+header .container{
+    display: flex; /* permite a variação da posição das tags */
+    flex-direction: row;
+    align-items: center; /* centraliza verticalmente tags contidas */ 
+    justify-content: space-between; /* centraliza horizontalmente tags contidas */
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.60)100%), url('/media/Jujutsu-background.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15%;
+}
+
+.botao-filme{
+    background-color: rgba(0,0,0,.5);
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .4s ease all;
+}
+
+.botao-filme:hover{
+    color: black;
+    background-color: white;
+}
+
+button:hover > a{
+    color: black;
+}
+
+.botao-filme i{
+    margin-right: 6px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.carosel-filmes{
+    margin-top: 10px;
+}
+
+.player-filme{
+    display: flex;
+}
+
+.botao-filme a{
+    text-decoration: none;
+    color: white;
+}
