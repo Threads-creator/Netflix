@@ -2,6 +2,8 @@
 
 O projeto possui uma única página **html** e se refere a tela inicial do Netflix
 
+![PaginaNetflix](https://github.com/Threads-creator/Netflix/blob/master/netflix_versao1.png)
+
 #### Componentes do Projeto ####
 
 - Main.html (página inicial);
